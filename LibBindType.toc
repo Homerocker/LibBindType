@@ -1,0 +1,8 @@
+## Author: Homerocker
+## Title: Lib: BindType
+## Version: 1.0
+## Notes: implements GetBindType() to get item bind type from link
+## Interface: 30300
+## LoadOnDemand: 1
+
+LibBindType.lua
