@@ -1,3 +1,8 @@
+local MAJOR, MINOR = "LibBindType", tonumber(GetAddOnMetadata("LibBindType", "Version"):match("(%d+)")
+local lib = LibStub:NewLibrary(MAJOR, MINOR)
+
+if not lib then return end
+
 function GetBindType(itemLink)
 	local tt = CreateFrame("GAMETOOLTIP", "myTooltipFromTemplate", nil, "GameTooltipTemplate")
 	tt:SetOwner(WorldFrame, "ANCHOR_NONE")

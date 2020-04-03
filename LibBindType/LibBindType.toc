@@ -2,7 +2,9 @@
 ## Title: Lib: BindType
 ## Version: 1.0
 ## Notes: implements GetBindType() to get item bind type from link
+## OptionalDeps: LibStub
 ## Interface: 30300
 ## LoadOnDemand: 1
 
+LibStub.lua
 LibBindType.lua
